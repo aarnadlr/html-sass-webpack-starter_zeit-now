@@ -1,7 +1,7 @@
 {
-  "name": "ev_paperless-modal",
+  "name": "add-title-here",
   "version": 2,
-  "alias": ["ev-paperless-modal-5.now.sh"],
+  "alias": ["add-title-here.now.sh"],
   "scope": "aarnadlr",
   "builds": [
     {
