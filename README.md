@@ -30,3 +30,18 @@ npm run build
 * Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
 
 When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+
+---
+
+## publicFiles directory
+All files placed in root `publicFiles` will be moved over to the `build/publicFiles` directory during the build step, for deployment.
+
+---
+
+
+## Deploy to Zeit Now:
+
+1. `npm run build`
+2. `cd` into the `build` directory
+3. `now`
+
