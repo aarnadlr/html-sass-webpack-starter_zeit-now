@@ -42,6 +42,5 @@ All files placed in root `publicFiles` will be moved over to the `build/publicFi
 ## Deploy to Zeit Now:
 
 1. `npm run build`
-2. `cd` into the `build` directory
-3. `now`
+2. `now`
 

@@ -1,0 +1,17 @@
+{
+  "name": "ev_paperless-modal",
+  "version": 2,
+  "alias": ["ev-paperless-modal-5.now.sh"],
+  "scope": "aarnadlr",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+
+  "routes": [
+    { "src": "/", "dest": "index.html" }
+  ]
+}
